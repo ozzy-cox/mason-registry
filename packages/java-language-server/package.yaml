@@ -37,7 +37,7 @@ source:
         dap: dist/debug_adapter_windows.cmd
 
 schemas:
-  lsp: vscode:https://raw.githubusercontent.com/georgewfraser/java-language-server/{{version}}/package.json
+  lsp: vscode:https://raw.githubusercontent.com/ozzy-cox/java-language-server/{{version}}/package.json
 
 bin:
   java-language-server: "{{source.build.bin.lsp}}"
