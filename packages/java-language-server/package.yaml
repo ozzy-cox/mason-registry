@@ -1,7 +1,7 @@
 ---
 name: java-language-server
 description: Java language server using the Java compiler API.
-homepage: https://github.com/georgewfraser/java-language-server
+homepage: https://github.com/ozzy-cox/java-language-server
 licenses:
   - MIT
 languages:
@@ -12,7 +12,7 @@ categories:
 
 source:
   # renovate:datasource=github-tags
-  id: pkg:github/georgewfraser/java-language-server@v0.2.39
+  id: pkg:github/ozzy-cox/java-language-server@master
   build:
     - target: [darwin_x64, darwin_arm64]
       run: |
